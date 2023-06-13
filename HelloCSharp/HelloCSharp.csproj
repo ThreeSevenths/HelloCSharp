@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>false</UseWPF>
+    <UseWindowsForms>false</UseWindowsForms>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vanara.PInvoke.Gdi32" Version="3.4.15" />
+    <PackageReference Include="Vanara.PInvoke.Kernel32" Version="3.4.15" />
+    <PackageReference Include="Vanara.PInvoke.User32" Version="3.4.15" />
+  </ItemGroup>
+
+</Project>
